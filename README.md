@@ -1,7 +1,7 @@
 # week0.day2.conditionals
 
 ## Instructions
-1. Create a Repo on GitHub named ~conditionals"
+1. Create a Repo on GitHub named "conditionals"
    - Remember to initialize it with a README.md
 2. In command line, navigate to your “Documents” Folder:
    - Clone the repo to your computer using `git clone {url}`

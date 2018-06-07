@@ -34,8 +34,8 @@ console.log("You find yourself in a store shopping...");
 // Create a variable "money" and set it equal to 100
 let health = 100;
 let money = 100;
-// Create a variable "item" and set it equal to one of the following
-// as a string: jacket, paint, hammer
+// Create a variable "item" and set it equal to the user's second command
+// line argument
 const item = process.argv[3];
 // If "item" is "jacket", subtract 40 from "money" and add 20 to "health" and console.log("You bought a jacket");
 if(item==="jacket"){

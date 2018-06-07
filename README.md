@@ -18,7 +18,7 @@
      
 ## Extra Credit
 - Clear and readable code is a sign of an experienced programmer. Clean up your code using this [JavaScript “beautifier”](http://jsbeautifier.org/)
-   - Observe the differences between what you originally made and looks different. From now on, try to write readable code the first time around.
+   - Observe the differences between what you originally made and what the same code looks like “beautified”. From now on, try to write readable code the first time around.
 
 ## Helpful Resources
 - [GitHub Lecture (ses slide 22+)](https://docs.google.com/presentation/d/1dbCztEBiZovdkDYO3aN-K8UC7pfVzK1E5PE43j1E4f4/edit?usp=sharing)

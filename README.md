@@ -5,11 +5,10 @@
    - Remember to initialize it with a README.md
 2. In command line, navigate to your “Documents” Folder:
    - Clone the repo to your computer using `git clone {url}`
-   - Copy (`Ctrl+C`) and paste (`Ctrl+V`) [this code](https://raw.githubusercontent.com/AllStarCodeOrg/week0.day2.conditionals/master/conditionals.js) into the file
-     - Remember, the url for the repo is found in the green “Clone or Download” button
+     - Remember, the url for the repo is found in the green “Clone or Download” button4. Follow the instructions in the comments
 3. Navigate into the newly cloned repo and create a file called “conditionals.js”
-   - Copy (`Ctrl+C`) and paste (`Ctrl+V`) this code into the file
-4. Follow the instructions in the comments
+   - Copy (`Ctrl+C`) and paste (`Ctrl+V`) [this code](https://raw.githubusercontent.com/AllStarCodeOrg/week0.day2.conditionals/master/conditionals.js) into the file
+     
 5. Test your code frequently by running the command `node conditionals.js`
 6. Remember to add, commit, and push your changes!
 7. Look over this worksheet to help fill in any gaps. We’ll be reviewing these on Monday!

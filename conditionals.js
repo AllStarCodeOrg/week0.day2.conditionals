@@ -163,11 +163,11 @@ if(choice){
     score += 10;
 }
 // if "message" is defined, add 10 points to "score"
-// NOTE: Recall where "message" was initialized. It's within many
-// curly brackets! Try initializing "message" in the global space 
-// right alongside "choice" like this: `let message;`
-// which is initialized as `undefined`. In the place it used to be initialized, 
-// we're just changing it to a value, 
+// NOTE: Recall where "message" was initialized/created. 
+// It's within curly brackets! 
+// Alter your code so that "message" is initialized  in the global space 
+// right alongside "choice"
+
 if(message){
     score += 10;
 }

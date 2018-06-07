@@ -29,8 +29,8 @@ console.log("You find yourself in a store shopping...");
 // Create a variable "health" and set it equal to 100
 // Create a variable "money" and set it equal to 100
 
-// Create a variable "item" and set it equal to one of the following
-// as a string: jacket, paint, hammer
+// Create a variable "item" and set it equal to the user's second command
+// line argument
 
 // If "item" is "jacket", subtract 40 from "money" and add 20 to "health" and console.log("You bought a jacket");
 // else if "item" is "candy", subtract 10 from "money" and console.log("You bought candy");
@@ -53,12 +53,13 @@ const randomPerson = Math.random() > .5 ? "John" : "Felipe";
 // We'll discuss Math.random() later this week!
 // If you're curious about the rest, look up "JS ternary operator"
 
-// Create a variable "choice" and set it equal to the user's second
+// Create a variable "choice" and set it equal to the user's third
 // command line argument
 
 // If "choice" is NOT defined (recall how we did this with the "username" variable)
 //      - console.log("You shut down due to inactivity and get robbed of all your money");
 //      - reduce "money" to 0
+
 // Else if "choice" is NOT "run" AND "randomPerson" is "Felipe" 
 //      console.log("The protesters attack you...");
 //      - if "item" is NOT "jacket"
@@ -66,6 +67,7 @@ const randomPerson = Math.random() > .5 ? "John" : "Felipe";
 //      - else
 //          - console.log("...and Felipe, a fellow android, who would normally help doesn't recognize you with the jacket");
 //          - reduce "health" by 50
+
 // Else if "choice" is "run" AND "randomPerson" is "John" 
 //      - console.log("You run, but John, a human officer with an attitude and a heart of gold, finds you...");
 //      - if "item" is "hammer" OR "jacket"
@@ -73,14 +75,17 @@ const randomPerson = Math.random() > .5 ? "John" : "Felipe";
 //          - reduce "money" to 0
 //      - else
 //          - console.log("...and seeing you have no ill intent, John protects you from the protestors and lets you go.");
+
 // Else (technically this means you ran AND got Felipe OR didn't run AND got John)
 //      - if "item" is "paint"
 //          - console.log("You boldy protest by painting a pro-android message...");
-//          - create a variable "message" and set it equal to the user's third command line argument
+//          - create a variable "message" and set it equal to the user's fourth command line argument
 //          - if "message" is defined
-//              - console.log(`...${message}`);
+//              - console.log(`..."${message.toUpperCase()}""`);
 //          - else
-//              - console.log("...WE ARE ALIVE");
+//              - console.log(`..."WE ARE ALIVE"`);
+//      - else
+//          - console.log(`Nothing interesting happens, but at least you got that ${item}`);
 
 ///////////
 // SCOPE //
@@ -106,11 +111,8 @@ const randomPerson = Math.random() > .5 ? "John" : "Felipe";
 // which is initialized as `undefined`. In the place it used to be initialized, 
 // we're just changing it to a value, 
 
-
 //////////////////////
 // STORY CONCLUSION //
 //////////////////////
-if(score){
-    console.log("The end");
-    console.log(`Score: ${score}`);
-}
+// console.log("The end");
+// console.log(`Score: ${score}`);

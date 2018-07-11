@@ -10,7 +10,7 @@
 // BASIC "IF/ELSE" STATEMENT //
 ///////////////////////////////
 // Create a variable "username" and set it equal to the user's
-// first command line argument when calling 'node conditional.js'
+// third command line argument when calling 'node conditional.js'
 
 // If "username" is defined, console.log(`Hello, ${username}`)
 // Otherwise, console.log("You must provide a username");

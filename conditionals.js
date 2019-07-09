@@ -47,11 +47,17 @@ console.log("You find yourself in a store shopping...");
 ///////////////////////
 console.log("You exit the store and find yourself in the middle of an anti-android protest!");
 console.log("You could run or stay...");
+
+//This is called A ternary operator! It's a shorthand if/else statement.
 const randomPerson = Math.random() > .5 ? "John" : "Felipe"; 
+// The syntax of it is:
+// condition ? expressionIfTrue : expressionIfFalse;
+// All that's being done is we're just setting the variable randomPerson equal to the outcome of that ternary statement, in this case what is the condition being tested?
+
 // You're given a variable "randomPerson" that is a string
 // NOTE: 
 // We'll discuss Math.random() later this week!
-// If you're curious about the rest, look up "JS ternary operator"
+// If you're interested to know more about ternary operators, google "JS ternary operator"! (Not now though, it's project time! :D)
 
 // Create a variable "choice" and set it equal to the user's third
 // command line argument
